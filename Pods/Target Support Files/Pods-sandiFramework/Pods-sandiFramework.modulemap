@@ -1,0 +1,6 @@
+framework module Pods_sandiFramework {
+  umbrella header "Pods-sandiFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

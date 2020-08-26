@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - ReachabilitySwift (5.0.0)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - ReachabilitySwift (~> 5.0.0)
+  - SVGKit (~> 2.1.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - ReachabilitySwift
+    - SVGKit
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+
+PODFILE CHECKSUM: d48be4e80778e0b5da693334bc9caa182666d550
+
+COCOAPODS: 1.9.1
