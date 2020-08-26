@@ -10,8 +10,12 @@ import Foundation
 
 public class nerworkServices {
     
-    public func fetchData() {
+    public static func fetchData() {
         
         print("this is sample rest api for fetch data")
+    }
+    
+    public static func printData() -> String {
+        return "hello world"
     }
 }
