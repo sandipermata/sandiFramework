@@ -20,6 +20,14 @@
 		27DFCF4C24F657D900F65374 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27DFCF4124F657D900F65374 /* LICENSE.txt */; };
 		27DFCF4D24F657D900F65374 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DFCF4224F657D900F65374 /* OpenSans-Regular.ttf */; };
 		27DFCF4E24F657D900F65374 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DFCF4324F657D900F65374 /* OpenSans-BoldItalic.ttf */; };
+		27DFCF5724F6604400F65374 /* ColorWithHexaString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF4F24F6604400F65374 /* ColorWithHexaString.swift */; };
+		27DFCF5824F6604400F65374 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF5024F6604400F65374 /* UIImage+Gif.swift */; };
+		27DFCF5924F6604400F65374 /* ExtensionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF5124F6604400F65374 /* ExtensionImage.swift */; };
+		27DFCF5A24F6604400F65374 /* networkServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF5224F6604400F65374 /* networkServiceViewController.swift */; };
+		27DFCF5B24F6604400F65374 /* captureWebText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF5324F6604400F65374 /* captureWebText.swift */; };
+		27DFCF5C24F6604400F65374 /* ExtensionUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF5424F6604400F65374 /* ExtensionUIButton.swift */; };
+		27DFCF5D24F6604400F65374 /* LocalizableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF5524F6604400F65374 /* LocalizableString.swift */; };
+		27DFCF5E24F6604400F65374 /* Reachability+NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF5624F6604400F65374 /* Reachability+NetworkType.swift */; };
 		36D1DBEFD6E1288FF513952C /* Pods_sandiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73A8E1E7E945556DEF73FDF /* Pods_sandiFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +47,14 @@
 		27DFCF4124F657D900F65374 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		27DFCF4224F657D900F65374 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		27DFCF4324F657D900F65374 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		27DFCF4F24F6604400F65374 /* ColorWithHexaString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWithHexaString.swift; sourceTree = "<group>"; };
+		27DFCF5024F6604400F65374 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		27DFCF5124F6604400F65374 /* ExtensionImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionImage.swift; sourceTree = "<group>"; };
+		27DFCF5224F6604400F65374 /* networkServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = networkServiceViewController.swift; sourceTree = "<group>"; };
+		27DFCF5324F6604400F65374 /* captureWebText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = captureWebText.swift; sourceTree = "<group>"; };
+		27DFCF5424F6604400F65374 /* ExtensionUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIButton.swift; sourceTree = "<group>"; };
+		27DFCF5524F6604400F65374 /* LocalizableString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableString.swift; sourceTree = "<group>"; };
+		27DFCF5624F6604400F65374 /* Reachability+NetworkType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reachability+NetworkType.swift"; sourceTree = "<group>"; };
 		2FFC97258687107CC9BAC804 /* Pods-sandiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sandiFramework.debug.xcconfig"; path = "Target Support Files/Pods-sandiFramework/Pods-sandiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		C73A8E1E7E945556DEF73FDF /* Pods_sandiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sandiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE43FAD7DAAD817ED7B0BC7C /* Pods-sandiFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sandiFramework.release.xcconfig"; path = "Target Support Files/Pods-sandiFramework/Pods-sandiFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +113,7 @@
 		27DFCF3824F657D900F65374 /* Font-Opensans */ = {
 			isa = PBXGroup;
 			children = (
+				27DFCF5F24F6606300F65374 /* Extension */,
 				27DFCF3924F657D900F65374 /* OpenSans-SemiBold.ttf */,
 				27DFCF3A24F657D900F65374 /* OpenSans-Light.ttf */,
 				27DFCF3B24F657D900F65374 /* OpenSans-Italic.ttf */,
@@ -110,6 +127,21 @@
 				27DFCF4324F657D900F65374 /* OpenSans-BoldItalic.ttf */,
 			);
 			path = "Font-Opensans";
+			sourceTree = "<group>";
+		};
+		27DFCF5F24F6606300F65374 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				27DFCF5324F6604400F65374 /* captureWebText.swift */,
+				27DFCF4F24F6604400F65374 /* ColorWithHexaString.swift */,
+				27DFCF5124F6604400F65374 /* ExtensionImage.swift */,
+				27DFCF5424F6604400F65374 /* ExtensionUIButton.swift */,
+				27DFCF5524F6604400F65374 /* LocalizableString.swift */,
+				27DFCF5224F6604400F65374 /* networkServiceViewController.swift */,
+				27DFCF5624F6604400F65374 /* Reachability+NetworkType.swift */,
+				27DFCF5024F6604400F65374 /* UIImage+Gif.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		B1864C97C69ACA9689F33C67 /* Frameworks */ = {
@@ -237,7 +269,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DFCF5E24F6604400F65374 /* Reachability+NetworkType.swift in Sources */,
+				27DFCF5B24F6604400F65374 /* captureWebText.swift in Sources */,
+				27DFCF5824F6604400F65374 /* UIImage+Gif.swift in Sources */,
+				27DFCF5724F6604400F65374 /* ColorWithHexaString.swift in Sources */,
+				27DFCF5D24F6604400F65374 /* LocalizableString.swift in Sources */,
 				27DFCF0324F6027100F65374 /* networkServices.swift in Sources */,
+				27DFCF5C24F6604400F65374 /* ExtensionUIButton.swift in Sources */,
+				27DFCF5924F6604400F65374 /* ExtensionImage.swift in Sources */,
+				27DFCF5A24F6604400F65374 /* networkServiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
