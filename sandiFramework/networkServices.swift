@@ -18,4 +18,8 @@ public class nerworkServices {
     public static func printData() -> String {
         return "hello world"
     }
+    
+    public static func login() -> String {
+        return "loginn success"
+    }
 }

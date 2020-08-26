@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "sandiFramework"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "this sandiFramework will be create and hopefully help developer and integration into project"
   s.description  = "this is sample framework will be create and hopefully help developer for develop the apps, and this library will be updated "
   s.homepage     = "https://github.com/sandipermata/sandiFramework"
