@@ -32,6 +32,10 @@
 		27DFCF7C24F6619200F65374 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DFCF6E24F6619200F65374 /* OpenSans-Regular.ttf */; };
 		27DFCF7D24F6619200F65374 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DFCF6F24F6619200F65374 /* Roboto-Bold.ttf */; };
 		27DFCF7E24F6619200F65374 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DFCF7024F6619200F65374 /* Raleway-Bold.ttf */; };
+		27DFCF8424F6623400F65374 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF8024F6623400F65374 /* UserDefaultHelper.swift */; };
+		27DFCF8524F6623400F65374 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF8124F6623400F65374 /* BaseViewController.swift */; };
+		27DFCF8624F6623400F65374 /* loadFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF8224F6623400F65374 /* loadFonts.swift */; };
+		27DFCF8724F6623400F65374 /* VariableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF8324F6623400F65374 /* VariableLabel.swift */; };
 		36D1DBEFD6E1288FF513952C /* Pods_sandiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73A8E1E7E945556DEF73FDF /* Pods_sandiFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,10 @@
 		27DFCF6E24F6619200F65374 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		27DFCF6F24F6619200F65374 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		27DFCF7024F6619200F65374 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		27DFCF8024F6623400F65374 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
+		27DFCF8124F6623400F65374 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		27DFCF8224F6623400F65374 /* loadFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadFonts.swift; sourceTree = "<group>"; };
+		27DFCF8324F6623400F65374 /* VariableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariableLabel.swift; sourceTree = "<group>"; };
 		2FFC97258687107CC9BAC804 /* Pods-sandiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sandiFramework.debug.xcconfig"; path = "Target Support Files/Pods-sandiFramework/Pods-sandiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		C73A8E1E7E945556DEF73FDF /* Pods_sandiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sandiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE43FAD7DAAD817ED7B0BC7C /* Pods-sandiFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sandiFramework.release.xcconfig"; path = "Target Support Files/Pods-sandiFramework/Pods-sandiFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +118,7 @@
 		27DFCEF924F6025A00F65374 /* sandiFramework */ = {
 			isa = PBXGroup;
 			children = (
+				27DFCF7F24F6623400F65374 /* Helper */,
 				27DFCF5F24F6606300F65374 /* Extension */,
 				27DFCF6224F6619200F65374 /* Font */,
 				27DFCEFA24F6025A00F65374 /* sandiFramework.h */,
@@ -154,6 +163,17 @@
 				27DFCF7024F6619200F65374 /* Raleway-Bold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		27DFCF7F24F6623400F65374 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				27DFCF8024F6623400F65374 /* UserDefaultHelper.swift */,
+				27DFCF8124F6623400F65374 /* BaseViewController.swift */,
+				27DFCF8224F6623400F65374 /* loadFonts.swift */,
+				27DFCF8324F6623400F65374 /* VariableLabel.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		B1864C97C69ACA9689F33C67 /* Frameworks */ = {
@@ -289,10 +309,14 @@
 				27DFCF5824F6604400F65374 /* UIImage+Gif.swift in Sources */,
 				27DFCF5724F6604400F65374 /* ColorWithHexaString.swift in Sources */,
 				27DFCF5D24F6604400F65374 /* LocalizableString.swift in Sources */,
+				27DFCF8524F6623400F65374 /* BaseViewController.swift in Sources */,
 				27DFCF0324F6027100F65374 /* networkServices.swift in Sources */,
 				27DFCF5C24F6604400F65374 /* ExtensionUIButton.swift in Sources */,
 				27DFCF5924F6604400F65374 /* ExtensionImage.swift in Sources */,
+				27DFCF8424F6623400F65374 /* UserDefaultHelper.swift in Sources */,
+				27DFCF8624F6623400F65374 /* loadFonts.swift in Sources */,
 				27DFCF6124F6615800F65374 /* Reachability.swift in Sources */,
+				27DFCF8724F6623400F65374 /* VariableLabel.swift in Sources */,
 				27DFCF5A24F6604400F65374 /* networkServiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
