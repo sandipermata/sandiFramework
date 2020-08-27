@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27D51E7524F75EF500C94623 /* LoadFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D51E7424F75EF500C94623 /* LoadFont.swift */; };
 		27DFCEFC24F6025A00F65374 /* sandiFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DFCEFA24F6025A00F65374 /* sandiFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27DFCF0324F6027100F65374 /* networkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF0224F6027100F65374 /* networkServices.swift */; };
 		27DFCF5724F6604400F65374 /* ColorWithHexaString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF4F24F6604400F65374 /* ColorWithHexaString.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27D51E7424F75EF500C94623 /* LoadFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFont.swift; sourceTree = "<group>"; };
 		27DFCEF724F6025A00F65374 /* sandiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sandiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DFCEFA24F6025A00F65374 /* sandiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sandiFramework.h; sourceTree = "<group>"; };
 		27DFCEFB24F6025A00F65374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				27DFCF8024F6623400F65374 /* UserDefaultHelper.swift */,
 				27DFCF8124F6623400F65374 /* BaseViewController.swift */,
 				27DFCF8224F6623400F65374 /* loadFonts.swift */,
+				27D51E7424F75EF500C94623 /* LoadFont.swift */,
 				27DFCF8324F6623400F65374 /* VariableLabel.swift */,
 			);
 			path = Helper;
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D51E7524F75EF500C94623 /* LoadFont.swift in Sources */,
 				27DFCF5E24F6604400F65374 /* Reachability+NetworkType.swift in Sources */,
 				27DFCF5B24F6604400F65374 /* captureWebText.swift in Sources */,
 				27DFCF5824F6604400F65374 /* UIImage+Gif.swift in Sources */,
