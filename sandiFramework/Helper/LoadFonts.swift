@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class LoadFont: NSObject {
+public class LoadFonts: NSObject {
     public enum FontSizes: CGFloat {
         case S64 = 64
         case S46 = 46

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27D51E7524F75EF500C94623 /* LoadFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D51E7424F75EF500C94623 /* LoadFont.swift */; };
+		27D51E7524F75EF500C94623 /* LoadFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D51E7424F75EF500C94623 /* LoadFonts.swift */; };
+		27D51E7724F7610300C94623 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D51E7624F7610300C94623 /* OpenSans-Bold.ttf */; };
+		27D51E7924F761A000C94623 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27D51E7824F761A000C94623 /* OpenSans-Bold.ttf */; };
 		27DFCEFC24F6025A00F65374 /* sandiFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DFCEFA24F6025A00F65374 /* sandiFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27DFCF0324F6027100F65374 /* networkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF0224F6027100F65374 /* networkServices.swift */; };
 		27DFCF5724F6604400F65374 /* ColorWithHexaString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF4F24F6604400F65374 /* ColorWithHexaString.swift */; };
@@ -35,13 +37,14 @@
 		27DFCF7E24F6619200F65374 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DFCF7024F6619200F65374 /* Raleway-Bold.ttf */; };
 		27DFCF8424F6623400F65374 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF8024F6623400F65374 /* UserDefaultHelper.swift */; };
 		27DFCF8524F6623400F65374 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF8124F6623400F65374 /* BaseViewController.swift */; };
-		27DFCF8624F6623400F65374 /* loadFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF8224F6623400F65374 /* loadFonts.swift */; };
 		27DFCF8724F6623400F65374 /* VariableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DFCF8324F6623400F65374 /* VariableLabel.swift */; };
 		36D1DBEFD6E1288FF513952C /* Pods_sandiFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73A8E1E7E945556DEF73FDF /* Pods_sandiFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27D51E7424F75EF500C94623 /* LoadFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFont.swift; sourceTree = "<group>"; };
+		27D51E7424F75EF500C94623 /* LoadFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFonts.swift; sourceTree = "<group>"; };
+		27D51E7624F7610300C94623 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		27D51E7824F761A000C94623 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		27DFCEF724F6025A00F65374 /* sandiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sandiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DFCEFA24F6025A00F65374 /* sandiFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sandiFramework.h; sourceTree = "<group>"; };
 		27DFCEFB24F6025A00F65374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,7 +74,6 @@
 		27DFCF7024F6619200F65374 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		27DFCF8024F6623400F65374 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
 		27DFCF8124F6623400F65374 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		27DFCF8224F6623400F65374 /* loadFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadFonts.swift; sourceTree = "<group>"; };
 		27DFCF8324F6623400F65374 /* VariableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariableLabel.swift; sourceTree = "<group>"; };
 		2FFC97258687107CC9BAC804 /* Pods-sandiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sandiFramework.debug.xcconfig"; path = "Target Support Files/Pods-sandiFramework/Pods-sandiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		C73A8E1E7E945556DEF73FDF /* Pods_sandiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sandiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 		27DFCF5F24F6606300F65374 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				27D51E7624F7610300C94623 /* OpenSans-Bold.ttf */,
 				27DFCF5324F6604400F65374 /* captureWebText.swift */,
 				27DFCF6024F6615800F65374 /* Reachability.swift */,
 				27DFCF4F24F6604400F65374 /* ColorWithHexaString.swift */,
@@ -172,9 +175,9 @@
 			children = (
 				27DFCF8024F6623400F65374 /* UserDefaultHelper.swift */,
 				27DFCF8124F6623400F65374 /* BaseViewController.swift */,
-				27DFCF8224F6623400F65374 /* loadFonts.swift */,
-				27D51E7424F75EF500C94623 /* LoadFont.swift */,
+				27D51E7424F75EF500C94623 /* LoadFonts.swift */,
 				27DFCF8324F6623400F65374 /* VariableLabel.swift */,
+				27D51E7824F761A000C94623 /* OpenSans-Bold.ttf */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -260,12 +263,14 @@
 			files = (
 				27DFCF7324F6619200F65374 /* PlayfairDisplay-Bold.ttf in Resources */,
 				27DFCF7D24F6619200F65374 /* Roboto-Bold.ttf in Resources */,
+				27D51E7924F761A000C94623 /* OpenSans-Bold.ttf in Resources */,
 				27DFCF7B24F6619200F65374 /* Montserrat-Regular.ttf in Resources */,
 				27DFCF7624F6619200F65374 /* Caveat-Regular.ttf in Resources */,
 				27DFCF7924F6619200F65374 /* PlayfairDisplay-Regular.ttf in Resources */,
 				27DFCF7424F6619200F65374 /* Caveat-Bold.ttf in Resources */,
 				27DFCF7724F6619200F65374 /* Raleway-Regular.ttf in Resources */,
 				27DFCF7E24F6619200F65374 /* Raleway-Bold.ttf in Resources */,
+				27D51E7724F7610300C94623 /* OpenSans-Bold.ttf in Resources */,
 				27DFCF7824F6619200F65374 /* Montserrat-Bold.ttf in Resources */,
 				27DFCF7524F6619200F65374 /* Roboto-Regular.ttf in Resources */,
 				27DFCF7224F6619200F65374 /* OpenSans-SemiBold.ttf in Resources */,
@@ -307,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D51E7524F75EF500C94623 /* LoadFont.swift in Sources */,
+				27D51E7524F75EF500C94623 /* LoadFonts.swift in Sources */,
 				27DFCF5E24F6604400F65374 /* Reachability+NetworkType.swift in Sources */,
 				27DFCF5B24F6604400F65374 /* captureWebText.swift in Sources */,
 				27DFCF5824F6604400F65374 /* UIImage+Gif.swift in Sources */,
@@ -318,7 +323,6 @@
 				27DFCF5C24F6604400F65374 /* ExtensionUIButton.swift in Sources */,
 				27DFCF5924F6604400F65374 /* ExtensionImage.swift in Sources */,
 				27DFCF8424F6623400F65374 /* UserDefaultHelper.swift in Sources */,
-				27DFCF8624F6623400F65374 /* loadFonts.swift in Sources */,
 				27DFCF6124F6615800F65374 /* Reachability.swift in Sources */,
 				27DFCF8724F6623400F65374 /* VariableLabel.swift in Sources */,
 				27DFCF5A24F6604400F65374 /* networkServiceViewController.swift in Sources */,

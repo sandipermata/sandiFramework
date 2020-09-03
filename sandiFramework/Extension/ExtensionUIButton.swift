@@ -20,7 +20,7 @@ extension UIButton {
         let colorHex = ColorWithHexaString()
         backgroundColor = colorHex.ColorWithHexaStrings(hex: "5781fb")
         setTitle(title, for: .normal)
-        titleLabel?.font = loadFonts.loadFontWithSize(.S10, .MontserratRegular)
+        titleLabel?.font = LoadFonts.loadFontWithSize(.S10, .MontserratRegular)
         setTitleColor(colorHex.ColorWithHexaStrings(hex: "ffffff"), for: .normal)
         layer.cornerRadius = 10
         isEnabled = true
@@ -30,7 +30,7 @@ extension UIButton {
         let colorHex = ColorWithHexaString()
         backgroundColor = colorHex.ColorWithHexaStrings(hex: "ebf9df")
         setTitle(title, for: .normal)
-        titleLabel?.font = loadFonts.loadFontWithSize(.S12, .MontserratBold)
+        titleLabel?.font = LoadFonts.loadFontWithSize(.S12, .MontserratBold)
         setTitleColor(colorHex.ColorWithHexaStrings(hex: "7dbd43"), for: .normal)
         layer.cornerRadius = 10
         isEnabled = false
@@ -41,7 +41,7 @@ extension UIButton {
         
         layer.cornerRadius = 35
         layer.backgroundColor = colorHex.ColorWithHexaStrings(hex: "FFFFFF").cgColor
-        titleLabel?.font = loadFonts.loadFontWithSize(.S12, .MontserratBold)
+        titleLabel?.font = LoadFonts.loadFontWithSize(.S12, .MontserratBold)
         titleLabel?.textColor = colorHex.ColorWithHexaStrings(hex: "1098AD")
         setTitle(title, for: .normal)
     }
@@ -50,7 +50,7 @@ extension UIButton {
         let colorHex = ColorWithHexaString()
         backgroundColor = colorHex.ColorWithHexaStrings(hex: "9ccc3b")
         setTitle(title, for: .normal)
-        titleLabel?.font = loadFonts.loadFontWithSize(.S12, .MontserratBold)
+        titleLabel?.font = LoadFonts.loadFontWithSize(.S12, .MontserratBold)
         setTitleColor(UIColor.white, for: .normal)
         layer.cornerRadius = 10
         isEnabled = true
@@ -61,14 +61,14 @@ extension UIButton {
         layer.backgroundColor = UIColor.white.cgColor
         setTitle("Apply bro", for: .normal)
         setTitleColor(UIColor(red: 16/255, green: 152/255, blue: 173/255, alpha: 1.0) , for: .normal)
-        titleLabel?.font = loadFonts.loadFontWithSize(.S12, .MontserratBold)
+        titleLabel?.font = LoadFonts.loadFontWithSize(.S12, .MontserratBold)
     }
     
     public func FeedBackWeatherButton(title: String) {
         let colorHex = ColorWithHexaString()
         backgroundColor = colorHex.ColorWithHexaStrings(hex: "FEC20E")
         setTitle(title, for: .normal)
-        titleLabel?.font = loadFonts.loadFontWithSize(.S12, .OpenSansRegular)
+        titleLabel?.font = LoadFonts.loadFontWithSize(.S12, .OpenSansRegular)
         titleLabel?.textColor = colorHex.ColorWithHexaStrings(hex: "000000")
         layer.cornerRadius = 10
         isEnabled = true

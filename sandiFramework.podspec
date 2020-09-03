@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "sandiFramework"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "this sandiFramework will be create and hopefully help developer and integration into project"
   s.description  = "this is sample framework will be create and hopefully help developer for develop the apps, and this library will be updated "
   s.homepage     = "https://github.com/sandipermata/sandiFramework"
@@ -12,11 +12,16 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sandipermata/sandiFramework.git", :tag => "#{s.version}" }
   s.source_files  = "sandiFramework/**/*.{swift}"
 
-  s.resource_bundles = {
-	'sandiFramework' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png,ttf,otf}']
-  }
+  # s.resource_bundles = {
+	# 'sandiFramework' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png,ttf,otf}']
+  # }
 
   s.resources = "sandiFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf,otf}"
+
+  
+  s.subspec 'Extension' do |ss|
+    ss.source_files = 'sandiFramework/ExtensionImage.swift'
+  end
 
   s.framework = "UIKit"
   s.dependency 'Alamofire', '~> 4.9.1'

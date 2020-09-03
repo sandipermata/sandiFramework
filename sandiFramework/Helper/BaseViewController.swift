@@ -159,7 +159,7 @@ class baseViewController: UIViewController  {
     }
     
     func setupLeftNavigationBarButtonWithImage_Cross_back() {
-        let attributes = [NSAttributedString.Key.font:  loadFonts.loadFontWithSize(.S12, .MontserratRegular)!, NSAttributedString.Key.foregroundColor: UIColor.clear]
+        let attributes = [NSAttributedString.Key.font:  LoadFonts.loadFontWithSize(.S12, .MontserratRegular)!, NSAttributedString.Key.foregroundColor: UIColor.clear]
         let BarButtonItemAppearance = UIBarButtonItem.appearance()
         
         BarButtonItemAppearance.setTitleTextAttributes(attributes, for: .normal)
